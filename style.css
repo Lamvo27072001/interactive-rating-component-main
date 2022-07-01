@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    /* background: linear-gradient(to bottom, hsl(217, 12%, 63%), hsl(216, 12%, 54%)); */
+    background-color: hsl(213, 19%, 18%);
+    height: 350px;
+    width: 350px;
+    margin: 140px auto;
+    border-radius: 20px;
+}
+
+.container * {
+    margin-left: 24px;
+    margin-top: 25px;
+}
+
+img {
+    padding: 8px 8px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 4%)
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.number {
+    margin-left: 22px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 4%);
+    color: rgba(255, 255, 255, 44%);
+    border: none;
+}
+
+#submit {
+    margin-left: 22px;
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 400;
+}
+
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.number:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+#submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
